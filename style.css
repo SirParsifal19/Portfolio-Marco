@@ -1,0 +1,208 @@
+body{font-family: "Source Sans Pro"; color:#476f8c; }
+
+.anchor-parallax{
+	display: block;
+	height: 100px;
+	margin-top: -100px;
+	visibility: hidden;
+}
+
+
+.spacer{height: 70px;}
+
+.animate{
+		-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/*--------------------------
+Menu
+--------------------------*/
+
+.navbar{min-height: 70px}
+
+.navbar.navbar-inverse{background-color: #486f8b;border-bottom: 0;}
+.navbar-inverse .navbar-toggle{margin-top: 15px;}
+
+.navbar-brand,
+.navbar-nav li a{
+	padding-top: 0;
+	line-height: 70px;
+	height: 70px;
+	font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color:#fff;
+}
+
+.img-logo{
+	width: auto;
+	height: 70px;
+}
+
+.parallax{
+	padding: 200px 100px 100px 100px;text-align: center;color:#fff;
+}
+
+/*--------------------------
+Cover
+--------------------------*/
+
+#cover{background: url("img/bg-cover.jpg") no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+	.data{color: #13e213; font-weight: bold; font-size: 16px;}
+	.titolo-principale{font-size: 70px;font-weight: bold;}
+	.sottotitolo{font-size: 35px; max-width: 500px;margin: 0 auto}
+	.button{background-color: #14e65a;
+		color:#476f8c;
+		padding: 10px 30px;
+		display: inline-block;
+		border-radius: 30px;
+		margin: 30px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.arrow .fa{font-size: 62px;}
+
+	/*--------------------------
+	Skills
+	--------------------------*/
+
+	.container {
+		padding: 2rem;
+	}
+	
+	.slider-wrapper {
+		position: relative;
+		max-width: 48rem;
+		margin: 0 auto;
+	}
+	
+	.slider {
+		display: flex;
+		aspect-ratio: 16 / 9;
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+		scroll-behavior: smooth;
+		box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+		border-radius: 0.5rem;
+		-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+		scrollbar-width: none; /* Hide scrollbar Firefox */
+	}
+	
+	/* Hide scrollbar for Chrome, Safari and Opera */
+
+	
+
+	
+	
+	
+
+	/*--------------------------
+	About me
+	--------------------------*/
+
+  #about {background: url("img/bg-programma.jpg") no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		padding-top:70px;
+		padding-bottom: 30px;
+	}
+
+	
+ .section-title
+ { align-items: center;
+align-content: center;
+}
+	/*--------------------------
+	Iscriviti
+	--------------------------*/
+
+	#iscriviti 
+	{ padding: 40px;
+		position:static;
+		bottom: 0;
+		width:100%;}
+	.sottotitolo{color: rgb(255, 255, 255); font-size: 30px;}
+
+	#iscriviti form {max-width:600px;margin: 40px auto;text-align: center}
+	#iscriviti input[type=text] {width:100%;padding: 10px;border: 2px solid #ccc; margin-bottom: 30px;font-size: 32px;}
+	#iscriviti input[type=submit] {background-color: #c9ff27;
+		color:#476f8c;
+		padding: 10px 30px;
+		display: inline-block;
+	
+		border-radius: 30px;
+		border:none;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;}
+
+
+		/*--------------------------
+		Footer
+		--------------------------*/
+
+		footer{
+		 background-color: #476f8c;
+		 padding: 40px;
+		 position: static;
+		 bottom: 0;
+		 width: 100%;
+		 
+		}
+			footer p {
+				color: #fff;
+				margin-bottom: 0px;
+                font-size: 16px;
+			}
+
+
+
+
+
+
+
+
+	/*--------------------------
+	Desktop
+	--------------------------*/
+
+	@media (min-width: 1023px){
+
+		.navbar{margin-top: 20px;}
+		.navbar.navbar-inverse{background-color: transparent;border-bottom: 0;}
+		.navbar-inverse .navbar-nav > .active > a,
+		.navbar-inverse .navbar-nav > .active > a:hover,
+		.navbar-inverse .navbar-nav > .active > a:focus{
+			background-color: transparent;
+			color: #c9ff27;
+		}
+
+	}
+
+
+	/*--------------------------
+	Tablet
+	--------------------------*/
+
+
+	@media (max-width: 1024px){
+		.navbar{background-color: #486f8b!important;margin-top: 0!important}
+		.parallax { padding: 100px 50px 50px 50px;}
+		.titolo-principale{font-size: 40px;}
+		.module{margin-bottom: 60px;}
+
+	}
